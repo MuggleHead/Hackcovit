@@ -45,13 +45,13 @@
     </div>
     <div class="main">
       <div class="quote">We Make a Difference in your Life</div>
-      <div class="story bgl bg-img1">
+      <div class="story  bgl bg-img1">
         <div class="context">
           "My nephew recommended this site to me and thanks to this site ,I got connected to a NGO
           who helped out in fighting for my rights and supported me"
         </div>
         <div class="video">
-          <img
+          <img class = "img-vid"
               src="./Images/first.png"
               class="img-vid"
               alt=""
@@ -74,7 +74,7 @@
         </div>
       </div>
       <div class="story bgl bg-img3">
-        <div class="context">
+        <div class="context ">
           "My nephew recommended this site to me and thanks to this site ,I got connected to a NGO
           who helped out in fighting for my rights and supported me"
         </div>
@@ -90,4 +90,10 @@
     </div>
   </body>
   <script src="./review.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script>
+    $(window).scroll(function(){
+      $(".s1").css("opacity:",1-  $(window).scrollTop()/250);
+    });
+  </script>
 </html>

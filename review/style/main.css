@@ -1,8 +1,10 @@
-@import url('/style/grid.css');
-@import url('../css/videopopup.css');
-
+@import url('./grid.css');
+body{
+    margin:0px;
+    
+}
 .quote{
-    padding: 4vh 8vw;
+    padding: 5vh 8vw;
     font-size: xxx-large;
     font-weight: 900;
     border-bottom: 2px solid black;
@@ -22,7 +24,6 @@
 }
 .img-vid{
     width:20vw;
-
 }
 .bgl{
     
@@ -40,11 +41,11 @@
     justify-content: center;
     gap:2vw;
     align-items: center;
-    padding: 2vh 5vw;
+    padding: 3vh 9vw;
 }
 .context{
     padding: 8vh 8vw;
-    width: 57ch;
+    width: 58ch;
     font-size: 2.5vw;
 
 }
