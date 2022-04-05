@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
 body {
   font-family: "IBM Plex Sans", sans-serif;
   margin: 0px;
@@ -9,17 +10,13 @@ li,
 a {
   font-family: "IBM Plex Sans", sans-serif;
   text-decoration: none;
-  /* color: black; */
+  color: black;
   font-size:20px;
 }
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.cta {
-  color: black;
-  padding-right: 14px;
 }
 .nav_links {
   list-style: none;
@@ -225,4 +222,176 @@ font-weight: 800;
 font-size: 35px;
 color: white;
 text-align: left;
+}
+/*--------------------------------------HOME-----------------------------------------------*/
+.care{
+  height: 800px;
+  width:1680px;
+ }
+ .helping{
+   font-size:40px;
+   font-weight: bolder;
+   left:650px;
+   position: absolute;
+ }
+
+.grid-item1{
+
+  height:450px;
+  width:425px;
+  top:1400px;
+  position: absolute;
+}
+.ite{
+  color: white;
+  padding-top: 100px;
+  padding-left: 50px;
+  font-weight: bolder;
+  font-size: 40px;
+
+}
+.grid-item2{
+  height:450px;
+  width:425px;
+  top:1400px;
+  left:425px;
+  position: absolute;
+}
+.grid-item3{
+  height:450px;
+  width:425px;
+  top:1400px;
+    left:850px;
+  position: absolute;
+}
+.grid-item4{
+  height:450px;
+  width:375px;
+  top:1400px;
+      left:1250px;
+  position: absolute;
+}
+hr{
+  color: white;
+  height: 5px;
+}
+.b1{
+  top:1800px;
+  position: absolute;
+  left:110px;
+  background-color: #792D71;
+  height:60px;
+  width: 180px;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.b2{
+  top:1800px;
+  position: absolute;
+    left:535px;
+    background-color: #C0436B;
+    height:60px;
+    width: 180px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.b3{
+  top:1800px;
+  position: absolute;
+    left:960px;
+    background-color: #E7943C;
+    height:60px;
+    width: 180px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.b4{
+  top:1800px;
+  position: absolute;
+  background-color:#EEBD49;
+    left:1360px;
+    height:60px;
+    width: 180px;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.contact{
+  top:2600px;
+  height:700px;
+  width: 1670px;
+  position: absolute;
+}
+.top{
+  top:2300px;
+  font-size: 40px;
+  font-weight: bolder;
+  left:250px;
+  position: absolute;
+}
+
+
+.foot1{
+  top:3300px;
+  left:-5px;
+}
+.final{
+  top:3320px;
+left:950px;
+}
+
+
+input[type=text], select, textarea {
+  width: 390px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.form{
+  background-color: white;
+  height:600px;
+  width:500px;
+  border-radius: 29px;
+  border-color: black;
+  top:230px;
+
+  position: absolute;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.container {
+
+
+  background-color: none;
+  padding: 300px;
+  top:2400px;
+  position: absolute;
+  z-index: 1;
+  font-family: 'Merriweather', serif;
+  color:black;
+
 }
