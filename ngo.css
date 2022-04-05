@@ -76,6 +76,7 @@ header {
   top:60px;
   position: absolute;
 left:80px;
+
 }
 .pic1{
   height: 300px;
@@ -84,13 +85,17 @@ left:80px;
   position: absolute;
   border-radius: 29px;
   top:30px;
+  border-color: black;
+  border: 4px solid;
 }
 .pic_text{
   position: absolute;
   left:800px;
   top:330px;
   color: black;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
 
 }
 .coma1{
@@ -155,8 +160,9 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
  width: 95%;
  font-size: 16px;
  padding: 12px 20px 12px 40px;
- border: 1px solid #ddd;
+ border: 1px solid black;
  margin-bottom: 12px;
+
 }
 
 #myTable {
@@ -174,14 +180,24 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #myTable tr {
- border-bottom: 1px #ddd;
+ border-bottom: 7px black;
 }
 
-#myTable tr.header, #myTable tr:hover {
- background-color: #f1f1f1;
+
+
+  #myTable tr:hover {
+ background-color: #FFE4CB;
+}
+.ng{
+  font-family: 'Merriweather', serif;
+  color:black;
+font-size: 40px;
+}
+.nm{
+  font-size: 30px;
 }
 .foot{
-  top:4500px;
+  top:4800px;
   background: linear-gradient(103.1deg, #EC5C0B 11.24%, rgba(100, 71, 40, 0.81) 11.25%, rgba(193, 103, 6, 0.72) 32.82%, #44413D 82.06%);
   width: 1700px;
   height:450px;
@@ -199,12 +215,12 @@ left:200px;
 }
 .ben{
   font-size: 30px;
-  top:130px;
+  top:330px;
 }
 .block_pic{
   height: 50px;
   width: 50px;
-  top:240px;
+  top:200px;
 padding-left: 180px;
   position: absolute;
 }
@@ -213,7 +229,7 @@ width:18%;
 }
 .final{
   position: absolute;
-  top:4550px;
+  top:4850px;
 left:650px;
 line-height: 55px;
   font-family: 'Merriweather Sans';
