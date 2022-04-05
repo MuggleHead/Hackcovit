@@ -15,13 +15,13 @@ body{
     margin-bottom: 10vh;
 }
 .bg-img1{
-    background: url("../Images/purple.svg") no-repeat right center;
+    background: url("./Images/purple.svg") no-repeat right center;
 }
 .bg-img2{
-    background:url('../Images/pink.svg') no-repeat left center;
+    background:url('./Images/pink.svg') no-repeat left center;
 }
 .bg-img3{
-    background:url('../Images/orange.svg') no-repeat right center;
+    background:url('./Images/orange.svg') no-repeat right center;
 }
 .img-vid{
     width:20vw;
