@@ -33,14 +33,14 @@ header {
 }
 .the_logo {
   width: 60px;
-  height: 65px;
+  height: 70px;
   padding: 10px;
 }
 .imag{
   position: absolute;
-  top: 40px;
+  top: 20px;
   width: 85px;
-  height: 22px;
+  height: 30px;
 }
 .top-container h1 {
   font-size: 50px;
@@ -54,6 +54,7 @@ header {
     rgba(252, 111, 50, 1) 100%
   );
   padding: 30px;
+  margin: 0px;
   text-align: center;
 }
 .labour-laws {
