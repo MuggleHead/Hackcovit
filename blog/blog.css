@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@300&display=swap');
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 0px;
+  padding: 7px 0px 0px 0px;
+}
+li,
+a {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+  color: rgb(147, 52, 39);
+}
+.logout {
+  width: 100px;
+  height: 50px;
+}
+.the_logo {
+  width: 60px;
+  height: 65px;
+  padding: 10px;
+}
+.imag {
+  position: absolute;
+  top: 40px;
+  width: 85px;
+  height: 22px;
+}
+.broom {
+  position: relative;
+  width: 1262px;
+  height: 450px;
+  left: 0px;
+  top: 12px;
+  text-align: center;
+  color: white;
+}
+.text {   
+  position: absolute;
+  top: 57%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  font-family: "Hanuman";
+  font-style: normal;
+  line-height: 20px;
+}
+.box {
+  position: relative;
+  width: 850px;
+  height: 240px;
+  left: 230px;
+  top: -90px;
+  background: #ffffff;
+  box-shadow: 9px 7px 19px 21px rgba(0, 0, 0, 0.13);
+}
+.b {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 50px;
+  top: 25px;
+}
+.and {
+  position: absolute;
+  left: 345px;
+  width: 180px;
+  height: 180px;
+  top: 25px;
+}
+.w {
+  position: absolute;
+  left: 625px;
+  width: 180px;
+  height: 180px;
+  top: 25px;
+}
+.story {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "IBM Plex Serif" !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #000000;
+}
+.rowimg{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 70px;
+    top: 32px;
+    gap: 45px;
+}
+.one{
+    width: 280px;
+    height: 250px;
+}
+.pehla{
+    display: flex;
+    gap: 70px;
+}
+.reet{
+    max-width: 80ch !important;  
+    font-size: 19px;
+}
+.blue{
+    position: relative;
+    top: 190px;
+    right: 170px;
+    display: inline-block;
+}
+.dusra{
+    display: flex;
+    gap: 70px;
+}
+.beetroot{
+    max-width: 80ch !important;  
+    font-size: 19px;
+}
+
+
+
