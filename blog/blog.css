@@ -23,6 +23,8 @@ header {
 }
 .nav_links li a {
   transition: all 0.3s ease 0s;
+  color: #000000;
+  font-size: 18px;
 }
 .nav_links li a:hover {
   color: rgb(147, 52, 39);
@@ -126,7 +128,7 @@ header {
     position: relative;
     top: 190px;
     right: 170px;
-    display: inline-block;
+    width: 40px;
 }
 .dusra{
     display: flex;
@@ -134,8 +136,5 @@ header {
 }
 .beetroot{
     max-width: 80ch !important;  
-    font-size: 19px;
+    font-size: 18px;
 }
-
-
-
