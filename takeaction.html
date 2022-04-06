@@ -116,23 +116,45 @@
     <div class="roadmap">
       <h2>ROADMAP</h2>
       <div class="roadmap-img">
-        <img src="imagess/roadmap.png" alt="roadmap of justice">
+        <img id="roadmap-just" src="imagess/roadmap.png" alt="roadmap of justice">
       </div>
     </div>
   </div>
-  <div class="foot foot1">
+
+  <!-- <div class="foot">
     <p class="ven">ENLiven</p>
     <p class="ven ben">Be a helping hand</p>
     <table class="tab">
       <tr>
-        <td><img class="block_pic" src="imagess/face.png" alt=""></td>
-        <td><img class="block_pic" src="imagess/insta.png" alt=""></td>
-        <td><img class="block_pic" src="imagess/twit.png" alt=""></td>
-        <td><img class="block_pic" src="imagess/link.png" alt=""></td>
-      </tr>
-    </table>
+  <td><img class="block_pic" src="imagess/face.png" alt=""></td>
+  <td><img class="block_pic" src="imagess/insta.png" alt=""></td>
+  <td><img class="block_pic" src="imagess/twit.png" alt=""></td>
+  <td><img class="block_pic" src="imagess/link.png" alt=""></td>
+  </tr>
+  </table>
   </div>
-  <pre class="final final2">About us<br>Contact us<br>Terms and conditions<br>Privacy Policy</pre>
+  <pre class="final" >About us<br>Contact us<br>Terms and conditions<br>Privacy Policy</pre>
+  <script>
+  function myFunction() {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[0];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  }
+  </script> -->
+
 </body>
 
 </html>
