@@ -5,6 +5,7 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
   margin: 0px;
   padding: 7px 0px 0px 0px;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 li,
 a {
