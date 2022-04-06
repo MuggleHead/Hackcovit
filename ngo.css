@@ -250,7 +250,9 @@ text-align: left;
    left:650px;
    position: absolute;
  }
-
+.disp{
+  display: flex;
+}
 .grid-item1{
 
   height:450px;
