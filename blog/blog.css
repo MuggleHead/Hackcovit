@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@300&display=swap");
 body {
   font-family: "IBM Plex Sans", sans-serif;
   margin: 0px;
@@ -29,10 +29,7 @@ header {
 .nav_links li a:hover {
   color: rgb(147, 52, 39);
 }
-.logout {
-  width: 100px;
-  height: 50px;
-}
+
 .the_logo {
   width: 60px;
   height: 65px;
@@ -53,7 +50,7 @@ header {
   text-align: center;
   color: white;
 }
-.text {   
+.text {
   position: absolute;
   top: 57%;
   left: 53%;
@@ -104,37 +101,87 @@ header {
   font-size: 35px;
   color: #000000;
 }
-.rowimg{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 70px;
-    top: 32px;
-    gap: 45px;
+.rowimg {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 50px;
+  top: 32px;
+  gap: 45px;
 }
-.one{
-    width: 280px;
-    height: 250px;
+.one {
+  width: 280px;
+  height: 250px;
 }
-.pehla{
-    display: flex;
-    gap: 70px;
+.pehla {
+  display: flex;
+  gap: 70px;
 }
-.reet{
-    max-width: 80ch !important;  
-    font-size: 19px;
+.reet {
+  max-width: 80ch !important;
+  font-size: 18px;
 }
-.blue{
-    position: relative;
-    top: 190px;
-    right: 170px;
-    width: 40px;
+.blue {
+  position: relative;
+  top: 190px;
+  right: 200px;
+  width: 40px;
 }
-.dusra{
-    display: flex;
-    gap: 70px;
+.dusra {
+  display: flex;
+  gap: 70px;
 }
-.beetroot{
-    max-width: 80ch !important;  
-    font-size: 18px;
+.beetroot {
+  max-width: 80ch !important;
+  font-size: 18px;
+}
+
+.foot {
+  top: 4500px;
+  background: linear-gradient(
+    103.1deg,
+    #ec5c0b 11.24%,
+    rgba(100, 71, 40, 0.81) 11.25%,
+    rgba(193, 103, 6, 0.72) 32.82%,
+    #44413d 82.06%
+  );
+  width: 1700px;
+  height: 450px;
+  left: -360px;
+  position: absolute;
+}
+.ven {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 800;
+  position: absolute;
+  color: white;
+  font-size: 60px;
+  left: 200px;
+}
+.ben {
+  font-size: 30px;
+  top: 130px;
+}
+.block_pic {
+  height: 50px;
+  width: 50px;
+  top: 240px;
+  padding-left: 180px;
+  position: absolute;
+}
+.tab {
+  width: 18%;
+}
+.final {
+  position: absolute;
+  top: 4550px;
+  left: 650px;
+  line-height: 55px;
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  color: white;
+  text-align: left;
 }
